@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15C7BE06-998B-4F63-851F-B06418AE13F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DesignMode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="AccessDepartment.h" />
+    <ClInclude Include="AccessFactory.h" />
+    <ClInclude Include="AccessUser.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Addition.h" />
+    <ClInclude Include="AfternoonState.h" />
+    <ClInclude Include="Aggregate.h" />
+    <ClInclude Include="Amativeness.h" />
+    <ClInclude Include="BakeChickenWingCommand.h" />
+    <ClInclude Include="BakeMuttonCommand.h" />
+    <ClInclude Include="Barbecuer.h" />
+    <ClInclude Include="BigTrouser.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BuildDirector.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="CashContext.h" />
+    <ClInclude Include="CashNormal.h" />
+    <ClInclude Include="CashRebate.h" />
+    <ClInclude Include="CashReturn.h" />
+    <ClInclude Include="CashSuper.h" />
+    <ClInclude Include="Center.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommonManager.h" />
+    <ClInclude Include="Company.h" />
+    <ClInclude Include="ConcreteAggregate.h" />
+    <ClInclude Include="ConcreteCompany.h" />
+    <ClInclude Include="ConcreteIterator.h" />
+    <ClInclude Include="ConcreteWebSite.h" />
+    <ClInclude Include="Country.h" />
+    <ClInclude Include="Division.h" />
+    <ClInclude Include="EveningState.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="Failing.h" />
+    <ClInclude Include="FatBuilder.h" />
+    <ClInclude Include="FinanceDepartment.h" />
+    <ClInclude Include="Finery.h" />
+    <ClInclude Include="ForeignCenter.h" />
+    <ClInclude Include="ForenoonState.h" />
+    <ClInclude Include="Forwards.h" />
+    <ClInclude Include="Fund.h" />
+    <ClInclude Include="GameRole.h" />
+    <ClInclude Include="GeneralManager.h" />
+    <ClInclude Include="GiveGift.h" />
+    <ClInclude Include="Guards.h" />
+    <ClInclude Include="HandSetAddressList.h" />
+    <ClInclude Include="HandSetBrand.h" />
+    <ClInclude Include="HandSetBrandM.h" />
+    <ClInclude Include="HandSetBrandN.h" />
+    <ClInclude Include="HandSetGame.h" />
+    <ClInclude Include="HandSetSoft.h" />
+    <ClInclude Include="HRDepartment.h" />
+    <ClInclude Include="IDepartment.h" />
+    <ClInclude Include="IFactory.h" />
+    <ClInclude Include="Invest.h" />
+    <ClInclude Include="IPrototype.h" />
+    <ClInclude Include="Iraq.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="LeatherShoes.h" />
+    <ClInclude Include="LeiFeng.h" />
+    <ClInclude Include="Majordomo.h" />
+    <ClInclude Include="Man.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="Multiplication.h" />
+    <ClInclude Include="NationalDebt.h" />
+    <ClInclude Include="NBAObserver.h" />
+    <ClInclude Include="NoonState.h" />
+    <ClInclude Include="Note.h" />
+    <ClInclude Include="ObjectStructure.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Person1.h" />
+    <ClInclude Include="PlayContext.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Proxy.h" />
+    <ClInclude Include="Pursuit.h" />
+    <ClInclude Include="Realty.h" />
+    <ClInclude Include="Request.h" />
+    <ClInclude Include="RestState.h" />
+    <ClInclude Include="Resume.h" />
+    <ClInclude Include="RoleStateCareTaker.h" />
+    <ClInclude Include="RoleStateMemento.h" />
+    <ClInclude Include="Scale.h" />
+    <ClInclude Include="SchoolGirl.h" />
+    <ClInclude Include="secretary.h" />
+    <ClInclude Include="SimpleFactory.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SleepingState.h" />
+    <ClInclude Include="Sneakers.h" />
+    <ClInclude Include="SQLServerDepartment.h" />
+    <ClInclude Include="SQLServerFactory.h" />
+    <ClInclude Include="SQLServerUser.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Stock.h" />
+    <ClInclude Include="StockObserver.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Subtraction.h" />
+    <ClInclude Include="Success.h" />
+    <ClInclude Include="Suit.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestPaper.h" />
+    <ClInclude Include="TestPaperConcrete.h" />
+    <ClInclude Include="ThinBuilder.h" />
+    <ClInclude Include="Tie.h" />
+    <ClInclude Include="Translator.h" />
+    <ClInclude Include="TShirts.h" />
+    <ClInclude Include="Undergraduate.h" />
+    <ClInclude Include="UndergraduateFactory.h" />
+    <ClInclude Include="UnitedNations.h" />
+    <ClInclude Include="UnitedNationsSecurityCouncil.h" />
+    <ClInclude Include="USA.h" />
+    <ClInclude Include="Volunteer.h" />
+    <ClInclude Include="VolunteerFactory.h" />
+    <ClInclude Include="Waiter.h" />
+    <ClInclude Include="WebSetFactory.h" />
+    <ClInclude Include="WebSite.h" />
+    <ClInclude Include="Woman.h" />
+    <ClInclude Include="Work.h" />
+    <ClInclude Include="WorkExperience.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractFactory.cpp" />
+    <ClCompile Include="AccessDepartment.cpp" />
+    <ClCompile Include="AccessFactory.cpp" />
+    <ClCompile Include="AccessUser.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="AfternoonState.cpp" />
+    <ClCompile Include="Aggregate.cpp" />
+    <ClCompile Include="Amativeness.cpp" />
+    <ClCompile Include="BakeChickenWingCommand.cpp" />
+    <ClCompile Include="BakeMuttonCommand.cpp" />
+    <ClCompile Include="Barbecuer.cpp" />
+    <ClCompile Include="BigTrouser.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BuildDirector.cpp" />
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="CashContext.cpp" />
+    <ClCompile Include="CashNormal.cpp" />
+    <ClCompile Include="CashRebate.cpp" />
+    <ClCompile Include="CashReturn.cpp" />
+    <ClCompile Include="CashSuper.cpp" />
+    <ClCompile Include="Center.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommonManager.cpp" />
+    <ClCompile Include="Company.cpp" />
+    <ClCompile Include="ConcreteAggregate.cpp" />
+    <ClCompile Include="ConcreteCompany.cpp" />
+    <ClCompile Include="ConcreteIterator.cpp" />
+    <ClCompile Include="ConcreteWebSite.cpp" />
+    <ClCompile Include="Country.cpp" />
+    <ClCompile Include="DesignMode.cpp" />
+    <ClCompile Include="Division.cpp" />
+    <ClCompile Include="EveningState.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="Failing.cpp" />
+    <ClCompile Include="FatBuilder.cpp" />
+    <ClCompile Include="FinanceDepartment.cpp" />
+    <ClCompile Include="Finery.cpp" />
+    <ClCompile Include="ForeignCenter.cpp" />
+    <ClCompile Include="ForenoonState.cpp" />
+    <ClCompile Include="Forwards.cpp" />
+    <ClCompile Include="Fund.cpp" />
+    <ClCompile Include="GameRole.cpp" />
+    <ClCompile Include="GeneralManager.cpp" />
+    <ClCompile Include="Guards.cpp" />
+    <ClCompile Include="HandSetAddressList.cpp" />
+    <ClCompile Include="HandSetBrand.cpp" />
+    <ClCompile Include="HandSetBrandM.cpp" />
+    <ClCompile Include="HandSetBrandN.cpp" />
+    <ClCompile Include="HandSetGame.cpp" />
+    <ClCompile Include="HandSetSoft.cpp" />
+    <ClCompile Include="HRDepartment.cpp" />
+    <ClCompile Include="IDepartment.cpp" />
+    <ClCompile Include="Iraq.cpp" />
+    <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="IUser.cpp" />
+    <ClCompile Include="LeatherShoes.cpp" />
+    <ClCompile Include="LeiFeng.cpp" />
+    <ClCompile Include="Majordomo.cpp" />
+    <ClCompile Include="Man.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Multiplication.cpp" />
+    <ClCompile Include="NationalDebt.cpp" />
+    <ClCompile Include="NBAObserver.cpp" />
+    <ClCompile Include="NoonState.cpp" />
+    <ClCompile Include="Note.cpp" />
+    <ClCompile Include="ObjectStructure.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Person1.cpp" />
+    <ClCompile Include="PlayContext.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="Pursuit.cpp" />
+    <ClCompile Include="Realty.cpp" />
+    <ClCompile Include="Request.cpp" />
+    <ClCompile Include="RestState.cpp" />
+    <ClCompile Include="Resume.cpp" />
+    <ClCompile Include="RoleStateCareTaker.cpp" />
+    <ClCompile Include="RoleStateMemento.cpp" />
+    <ClCompile Include="Scale.cpp" />
+    <ClCompile Include="SchoolGirl.cpp" />
+    <ClCompile Include="secretary.cpp" />
+    <ClCompile Include="SimpleFactory.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="SleepingState.cpp" />
+    <ClCompile Include="Sneakers.cpp" />
+    <ClCompile Include="SQLServerDepartment.cpp" />
+    <ClCompile Include="SQLServerFactory.cpp" />
+    <ClCompile Include="SQLServerUser.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stock.cpp" />
+    <ClCompile Include="StockObserver.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Subtraction.cpp" />
+    <ClCompile Include="Success.cpp" />
+    <ClCompile Include="Suit.cpp" />
+    <ClCompile Include="TestPaper.cpp" />
+    <ClCompile Include="TestPaperConcrete.cpp" />
+    <ClCompile Include="ThinBuilder.cpp" />
+    <ClCompile Include="Tie.cpp" />
+    <ClCompile Include="Translator.cpp" />
+    <ClCompile Include="TShirts.cpp" />
+    <ClCompile Include="Undergraduate.cpp" />
+    <ClCompile Include="UndergraduateFactory.cpp" />
+    <ClCompile Include="UnitedNations.cpp" />
+    <ClCompile Include="UnitedNationsSecurityCouncil.cpp" />
+    <ClCompile Include="USA.cpp" />
+    <ClCompile Include="Volunteer.cpp" />
+    <ClCompile Include="VolunteerFactory.cpp" />
+    <ClCompile Include="Waiter.cpp" />
+    <ClCompile Include="WebSetFactory.cpp" />
+    <ClCompile Include="WebSite.cpp" />
+    <ClCompile Include="Woman.cpp" />
+    <ClCompile Include="Work.cpp" />
+    <ClCompile Include="WorkExperience.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

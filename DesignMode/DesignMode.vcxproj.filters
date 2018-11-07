@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SimpleFactory">
+      <UniqueIdentifier>{73662420-0cb6-4db0-8e18-c94b61591103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimpleFactory\inc">
+      <UniqueIdentifier>{2b970c5b-1455-4ff3-9fa4-744b345482af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stragegy">
+      <UniqueIdentifier>{98181e6d-3b5a-44fc-b739-37c736fb0e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stragegy\inc">
+      <UniqueIdentifier>{773efb6b-9fd9-40c2-8966-1f4f35e07982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator">
+      <UniqueIdentifier>{9dd9df4a-f2cc-4604-b2e5-646be33b5dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\inc">
+      <UniqueIdentifier>{4e30e2d9-be90-432e-a98a-5d9441acf4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{38cbeab2-7663-4122-aaf5-b051d61173a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\inc">
+      <UniqueIdentifier>{cd284716-49ea-42c7-8b71-6dfce9042510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{c4050bde-4a4d-4eab-b962-68b934c61fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\inc">
+      <UniqueIdentifier>{30392f88-768f-4538-ab9e-171daf9ad8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{32e4bb78-48fb-4482-b9cf-61082eb2902c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\inc">
+      <UniqueIdentifier>{fd78d874-630d-4f0c-b00b-ab2f49436ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemplateMethod">
+      <UniqueIdentifier>{b4517e25-9c0d-4c44-ac20-3fd6216a22fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemplateMethod\inc">
+      <UniqueIdentifier>{de5d9d82-b999-449c-945a-23d991fe8629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Facade">
+      <UniqueIdentifier>{162a6001-6102-488d-8680-e4ec1213f2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Facade\inc">
+      <UniqueIdentifier>{6a283afa-714e-46f4-95fc-932426f350bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{a25ce96f-fe99-44b2-aff5-21337c63ed58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\inc">
+      <UniqueIdentifier>{40d4f904-8cfa-49b8-996a-8b96b2e83863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{71472d69-6593-41ad-9c67-2e37cb4636fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\inc">
+      <UniqueIdentifier>{502ab33e-639d-43bd-b08b-5db8d3c77d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractFactory">
+      <UniqueIdentifier>{b72668fc-f757-4879-881a-44feed2e2a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractFactory\inc">
+      <UniqueIdentifier>{78c05307-0d2a-4fd5-8b4e-5cca5ed544a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{c2d64a45-6031-484e-a790-550740cf12e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\inc">
+      <UniqueIdentifier>{f07b125b-41e9-49e4-b649-37d743839c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adapter">
+      <UniqueIdentifier>{996236d3-048a-4e81-b412-343dd853c2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adapter\inc">
+      <UniqueIdentifier>{a942b5db-3ef4-4c51-98df-3deea84e343e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memento">
+      <UniqueIdentifier>{67082a21-eba5-42dd-8a65-07636743e46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memento\inc">
+      <UniqueIdentifier>{68320c4c-120b-4979-a576-d88c10ff496e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite">
+      <UniqueIdentifier>{6d05e25a-d4a1-4d38-a2b1-bb594a79da72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\inc">
+      <UniqueIdentifier>{7e849c13-0cfc-432f-b675-17b7e43f3423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator">
+      <UniqueIdentifier>{bd84c2e7-a24b-4662-8630-ef8f4bb222fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator\inc">
+      <UniqueIdentifier>{0e5287e9-6cb6-43b6-9bab-5200ccc5c87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{4de44885-c3d2-4551-8d75-1f8d05f55a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\inc">
+      <UniqueIdentifier>{9426ed19-c5cb-47f2-897a-a89159db8bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge">
+      <UniqueIdentifier>{7e35d36c-2187-48cd-ad35-21ca2f8b94fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge\inc">
+      <UniqueIdentifier>{3af6bd8d-f84e-437f-8047-8d9aaafa31b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{94d0194b-08e6-4ada-8855-7d22352cae15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\inc">
+      <UniqueIdentifier>{1f0a241d-061a-412a-bc7c-7a05b9360127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChainOfResponsibility">
+      <UniqueIdentifier>{04903aa5-030f-4344-9613-449123e4b087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChainOfResponsibility\inc">
+      <UniqueIdentifier>{948dcca7-6ece-4252-a1d1-4710b81d0910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{43ab4db9-af93-4648-9660-04950a5c7914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator\inc">
+      <UniqueIdentifier>{0b12d3c6-f6e3-4a6e-8659-c1b54b7f7130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlyWeight">
+      <UniqueIdentifier>{90d8d379-f44b-4f65-ad06-e493c5380223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlyWeight\inc">
+      <UniqueIdentifier>{2a29b9ff-f731-4609-986c-1b36006a0c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter">
+      <UniqueIdentifier>{7977cf5f-65b8-4d19-ad9a-f99fa7de4675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter\inc">
+      <UniqueIdentifier>{39342aad-d1c4-4d77-85dd-96a1088e3151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitor">
+      <UniqueIdentifier>{f7449a45-1312-4a47-b976-523657f25f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitor\inc">
+      <UniqueIdentifier>{5a030571-0e58-4432-b013-a31a846989f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Addition.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtraction.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplication.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Division.h">
+      <Filter>SimpleFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CashContext.h">
+      <Filter>Stragegy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CashSuper.h">
+      <Filter>Stragegy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CashNormal.h">
+      <Filter>Stragegy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CashRebate.h">
+      <Filter>Stragegy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CashReturn.h">
+      <Filter>Stragegy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Finery.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TShirts.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BigTrouser.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Sneakers.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Suit.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Tie.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LeatherShoes.h">
+      <Filter>Decorator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Pursuit.h">
+      <Filter>Proxy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GiveGift.h">
+      <Filter>Proxy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>Proxy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SchoolGirl.h">
+      <Filter>Proxy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LeiFeng.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Undergraduate.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Volunteer.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UndergraduateFactory.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="VolunteerFactory.h">
+      <Filter>Factory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrototype.h">
+      <Filter>Prototype\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkExperience.h">
+      <Filter>Prototype\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resume.h">
+      <Filter>Prototype\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPaper.h">
+      <Filter>TemplateMethod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPaperConcrete.h">
+      <Filter>TemplateMethod\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Fund.h">
+      <Filter>Facade\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock.h">
+      <Filter>Facade\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="NationalDebt.h">
+      <Filter>Facade\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Realty.h">
+      <Filter>Facade\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Invest.h">
+      <Filter>Facade\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Builder\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FatBuilder.h">
+      <Filter>Builder\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ThinBuilder.h">
+      <Filter>Builder\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildDirector.h">
+      <Filter>Builder\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="secretary.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="NBAObserver.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="StockObserver.h">
+      <Filter>Observer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IDepartment.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLServerFactory.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessFactory.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLServerUser.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessUser.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLServerDepartment.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessDepartment.h">
+      <Filter>AbstractFactory\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ForenoonState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="NoonState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="AfternoonState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EveningState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepingState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RestState.h">
+      <Filter>State\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Forwards.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Center.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Guards.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ForeignCenter.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator.h">
+      <Filter>Adapter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRole.h">
+      <Filter>Memento\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleStateMemento.h">
+      <Filter>Memento\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleStateCareTaker.h">
+      <Filter>Memento\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Composite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteCompany.h">
+      <Filter>Composite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HRDepartment.h">
+      <Filter>Composite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FinanceDepartment.h">
+      <Filter>Composite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Iterator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregate.h">
+      <Filter>Iterator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteIterator.h">
+      <Filter>Iterator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteAggregate.h">
+      <Filter>Iterator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetSoft.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetGame.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetAddressList.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetBrand.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetBrandM.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandSetBrandN.h">
+      <Filter>Bridge\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Command\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Waiter.h">
+      <Filter>Command\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Barbecuer.h">
+      <Filter>Command\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BakeMuttonCommand.h">
+      <Filter>Command\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BakeChickenWingCommand.h">
+      <Filter>Command\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>ChainOfResponsibility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>ChainOfResponsibility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonManager.h">
+      <Filter>ChainOfResponsibility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Majordomo.h">
+      <Filter>ChainOfResponsibility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralManager.h">
+      <Filter>ChainOfResponsibility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitedNations.h">
+      <Filter>Mediator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Country.h">
+      <Filter>Mediator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="USA.h">
+      <Filter>Mediator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Iraq.h">
+      <Filter>Mediator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitedNationsSecurityCouncil.h">
+      <Filter>Mediator\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSite.h">
+      <Filter>FlyWeight\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteWebSite.h">
+      <Filter>FlyWeight\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSetFactory.h">
+      <Filter>FlyWeight\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayContext.h">
+      <Filter>Interpreter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Interpreter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Interpreter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Interpreter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Person1.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Success.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Failing.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Amativeness.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Woman.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStructure.h">
+      <Filter>Visitor\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFactory.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Addition.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtraction.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplication.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Division.cpp">
+      <Filter>SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CashContext.cpp">
+      <Filter>Stragegy</Filter>
+    </ClCompile>
+    <ClCompile Include="CashSuper.cpp">
+      <Filter>Stragegy</Filter>
+    </ClCompile>
+    <ClCompile Include="CashNormal.cpp">
+      <Filter>Stragegy</Filter>
+    </ClCompile>
+    <ClCompile Include="CashRebate.cpp">
+      <Filter>Stragegy</Filter>
+    </ClCompile>
+    <ClCompile Include="CashReturn.cpp">
+      <Filter>Stragegy</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Finery.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="TShirts.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="BigTrouser.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Sneakers.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Suit.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Tie.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="LeatherShoes.cpp">
+      <Filter>Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Pursuit.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="SchoolGirl.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="LeiFeng.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Undergraduate.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Volunteer.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="UndergraduateFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="VolunteerFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkExperience.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Resume.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPaper.cpp">
+      <Filter>TemplateMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPaperConcrete.cpp">
+      <Filter>TemplateMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Fund.cpp">
+      <Filter>Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock.cpp">
+      <Filter>Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="NationalDebt.cpp">
+      <Filter>Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Realty.cpp">
+      <Filter>Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="FatBuilder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="ThinBuilder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildDirector.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="secretary.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="NBAObserver.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="StockObserver.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="IUser.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="IDepartment.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLServerFactory.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessFactory.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLServerUser.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessUser.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLServerDepartment.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessDepartment.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="ForenoonState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="NoonState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="AfternoonState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="EveningState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepingState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="RestState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Forwards.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Center.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Guards.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeignCenter.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRole.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleStateMemento.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleStateCareTaker.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteCompany.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="HRDepartment.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="FinanceDepartment.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregate.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteIterator.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteAggregate.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetSoft.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetGame.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetAddressList.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetBrand.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetBrandM.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="HandSetBrandN.cpp">
+      <Filter>Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Waiter.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Barbecuer.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="BakeMuttonCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="BakeChickenWingCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="Request.cpp">
+      <Filter>ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonManager.cpp">
+      <Filter>ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="Majordomo.cpp">
+      <Filter>ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralManager.cpp">
+      <Filter>ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitedNations.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Country.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="USA.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Iraq.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitedNationsSecurityCouncil.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSite.cpp">
+      <Filter>FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteWebSite.cpp">
+      <Filter>FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSetFactory.cpp">
+      <Filter>FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayContext.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Person1.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Success.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Failing.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Amativeness.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Woman.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectStructure.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
