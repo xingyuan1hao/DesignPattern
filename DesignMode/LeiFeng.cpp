@@ -33,7 +33,7 @@ void LeiFeng::Wash()
 void factory()
 {
 	UndergraduateFactory uf;
-	VolunteerFactory          vf;
+	VolunteerFactory vf;
 
 	LeiFeng *pLeiFeng = uf.CreateLeiFeng();
 	pLeiFeng->BuyRice();
